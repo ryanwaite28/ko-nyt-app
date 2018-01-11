@@ -1,4 +1,4 @@
-# Knockout JS
+# Knockout JS | NY Times API
 ![](img/knockout.png)
 ![](img/nytimes.jpg)
 
