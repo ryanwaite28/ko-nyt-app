@@ -1,5 +1,5 @@
 # Knockout JS | NY Times API
-![](img/knockout.png)
+![](img/knockout.png)<br/>
 ![](img/nytimes.jpg)
 
 Knockout Website: http://knockoutjs.com/
