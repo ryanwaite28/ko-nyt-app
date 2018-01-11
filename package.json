@@ -1,0 +1,18 @@
+{
+  "name": "ko-nyt-app",
+  "version": "1.0.0",
+  "description": "KnockoutJS App | NY Times API",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Knockout",
+    "JS",
+    "NY",
+    "Times",
+    "API"
+  ],
+  "author": "Ryan M. Waite",
+  "license": "ISC"
+}
