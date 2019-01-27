@@ -4,7 +4,7 @@ function MVC() {
   var self = this;
   window.logMVC = function() { console.log('mvc', self); }
 
-  var api_key = '52ed7b1a514043208bd970208177f48c';
+  var api_key = '55ozGMpeceBQOtCzw2NbwHniM7FrKzLn';
   self.nytimes_domain = 'https://www.nytimes.com/';
 
   self.name = ko.observable('');
