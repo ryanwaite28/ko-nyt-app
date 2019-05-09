@@ -40,7 +40,16 @@ function MVC() {
     .then(function(resp) { return resp.json(); })
     .then(function(json) {
       console.log('resp', json);
-      if(json.response.docs && json.response.docs.length > 0){
+      if(json.response.docs && json.response.docs.length > 0) {
+        json.response.docs.forEach(function(article) {
+          article.multimedia = article.multimedia.reduce(function(acc, cur) {
+            if (!acc.includes(cur.url)) { 
+              acc.push(cur.url); 
+            }
+            return acc;
+          }, []);
+        });
+
         self.list( json.response.docs );
         self.requestMSG('Successfully loaded articles about ' + query + '!');
       }
