@@ -50,15 +50,7 @@
           </a>
         </h4>
         <div data-bind="if: $data.multimedia.length > 0">
-          <div data-bind="foreach: $data.multimedia">
-            <img 
-              class="article-image" 
-              data-bind="attr: { 
-                src: $root.nytimes_domain + $data, 
-                title: $parent.headline.main, 
-                alt: 'Article Image' 
-              }" />
-          </div>
+          <img class="article-image" data-bind="attr: { src: $parent.nytimes_domain + $data.multimedia[0].url, title: 'Article Image', alt: 'Article Image' }"/>
         </div>
         <p>
           <span data-bind="text: $data.snippet"></span>
